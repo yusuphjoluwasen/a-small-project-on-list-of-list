@@ -1,0 +1,24 @@
+#assuming our list is stored as listee
+for i in range(len(listee)+1):
+	for k in range(len(listee)):
+		print(listee[k][i], end = '')
+	print()
+
+
+Example:
+c = [[1,2,3,5,6],
+     [0,9,7,6,1],
+     [8,6,5,9,0],
+     [1,6,5,8,9]]
+     
+for i in range(len(c)):
+	for k in range(len(c)):
+		print(c[k+1][i], end = '')
+	print()
+
+Result:
+1081
+2966
+3755
+5698
+6109
